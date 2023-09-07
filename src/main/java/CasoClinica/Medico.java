@@ -4,7 +4,7 @@ public class Medico extends Trabajador {
 	private String especializacion;
 	private String horarioAtencion;
 	private int pacientesAsignados;
-	private String areExperiencia;
+	private String areaExperiencia;
 	private EspecialidadMedica especialidadMedica;
 
 	public String getEspecializacion() {
@@ -40,18 +40,23 @@ public class Medico extends Trabajador {
 	}
 
 	public String getAreExperiencia() {
-		return this.areExperiencia;
+		return this.areaExperiencia;
 	}
 
 	public void setAreExperiencia(String areExperiencia) {
-		this.areExperiencia = areExperiencia;
+		this.areaExperiencia = areExperiencia;
 	}
 
-	public Medico() {
-		throw new UnsupportedOperationException();
+	public Medico(String tituloProfesional, String nombre, String direccion, String estadoCivil, String rut, String horarioTrabajo, Clinica clinica, String especializacion, String horarioAtencion, int pacientesAsignados, String areaExperiencia, EspecialidadMedica especialidadMedica) {
+		super(tituloProfesional, nombre, direccion, estadoCivil, rut, horarioTrabajo, clinica);
+		this.especializacion = especializacion;
+		this.horarioAtencion = horarioAtencion;
+		this.pacientesAsignados = pacientesAsignados;
+		this.areaExperiencia = areaExperiencia;
+		this.especialidadMedica = especialidadMedica;
 	}
 
-	public void getTipo() {
-		throw new UnsupportedOperationException();
+	public String getTipo() {
+		return "Medico";
 	}
 }

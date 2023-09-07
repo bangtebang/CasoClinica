@@ -57,9 +57,15 @@ public abstract class Trabajador {
 		this.horarioTrabajo = horarioTrabajo;
 	}
 
-	public abstract void getTipo();
+	public abstract String getTipo();
 
-	public Trabajador() {
-		throw new UnsupportedOperationException();
+	public Trabajador(String tituloProfesional, String nombre, String direccion, String estadoCivil, String rut,
+			String horarioTrabajo, Clinica clinica) {
+		this.tituloProfesional = tituloProfesional;
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.estadoCivil = estadoCivil;
+		this.rut = rut;
+		this.horarioTrabajo = horarioTrabajo;
 	}
 }

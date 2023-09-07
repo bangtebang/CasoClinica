@@ -36,7 +36,10 @@ public class EspecialidadMedica {
 		this.longitud = longitud;
 	}
 
-	public EspecialidadMedica() {
-		throw new UnsupportedOperationException();
+	public EspecialidadMedica(String nombre, int latitud, int longitud, Clinica clinica) {
+		this.nombre = nombre;
+		this.latitud = latitud;
+		this.longitud = longitud;
+		this.clinica = clinica;
 	}
 }

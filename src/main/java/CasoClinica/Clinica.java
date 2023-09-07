@@ -34,7 +34,9 @@ public class Clinica {
 		this.tipoClinica = tipoClinica;
 	}
 
-	public Clinica() {
-		throw new UnsupportedOperationException();
+	public Clinica(String nombre, String direccionesAsociadas, String tipoClinica) {
+		this.nombre = nombre;
+		this.direccionesAsociadas = direccionesAsociadas;
+		this.tipoClinica = tipoClinica;
 	}
 }
