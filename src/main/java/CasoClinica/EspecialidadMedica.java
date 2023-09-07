@@ -42,4 +42,16 @@ public class EspecialidadMedica {
 		this.longitud = longitud;
 		this.clinica = clinica;
 	}
+	public void agregarMedico(Medico medico) {
+		medicos.add(medico);
+	}
+	public ArrayList<Medico>obtenerMedicos() {
+		return medicos;
+	}
+	public void agregarAdministrativo(Administrativo administrativo) {
+		administrativos.add(administrativo);
+	}
+	public ArrayList<Administrativo> obtenerAdministrativos() {
+		return administrativos;
+	}
 }

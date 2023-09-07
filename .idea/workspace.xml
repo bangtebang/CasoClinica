@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3fdce51-c2c0-4efd-9daa-8d4df14e70b5" name="Changes" comment="subo modelo uml mas clases creadas automaticas">
+    <list default="true" id="e3fdce51-c2c0-4efd-9daa-8d4df14e70b5" name="Changes" comment="subo constructores y getTipo creados tambien correccion en un nombre en el uml y el codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelo/CasoClinica.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/modelo/CasoClinica.vpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelo/imagen diagrama.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/modelo/imagen diagrama.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CasoClinica/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CasoClinica/Administrativo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CasoClinica/Clinica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CasoClinica/Clinica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CasoClinica/EspecialidadMedica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CasoClinica/EspecialidadMedica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CasoClinica/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CasoClinica/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CasoClinica/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CasoClinica/Trabajador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +62,20 @@
       <option name="project" value="LOCAL" />
       <updated>1694119186644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="subo constructores y getTipo creados tambien correccion en un nombre en el uml y el codigo">
+      <created>1694120047745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694120047745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo master" />
     <MESSAGE value="subo modelo uml mas clases creadas automaticas" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo modelo uml mas clases creadas automaticas" />
+    <MESSAGE value="subo constructores y getTipo creados tambien correccion en un nombre en el uml y el codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo constructores y getTipo creados tambien correccion en un nombre en el uml y el codigo" />
   </component>
 </project>
